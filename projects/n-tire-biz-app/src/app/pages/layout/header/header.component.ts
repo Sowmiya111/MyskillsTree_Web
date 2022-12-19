@@ -16,6 +16,7 @@ import { SharedService } from '../../../../../../n-tire-biz-app/src/app/service/
 import { bousermasterService } from './../../../service/bousermaster.service';
 import { ToastService } from '../../core/services/toast.service';
 import { mstapplicantmastermainComponent } from '../../forms/mstapplicantmaster/mstapplicantmastermain.component';
+import { TRISTATECHECKBOX_VALUE_ACCESSOR } from 'primeng/tristatecheckbox';
 
 @Component({
   selector: 'app-header',
@@ -35,6 +36,7 @@ export class HeaderComponent implements OnInit {
   notifications: any = [];
   menuvisible: boolean = true;
   loggedIn: boolean = false;
+  menuhide:boolean=false;
   @Output() toggleMenubar: EventEmitter<any> = new EventEmitter();
   theme: string;
   _start: boolean;
@@ -294,8 +296,10 @@ export class HeaderComponent implements OnInit {
     this.showhideProfile = false;
   }
   showProfileDetails() {
-    this.showhideProfile = !this.showhideProfile;
-    this.showmenulist = false;
+    debugger
+    this.showhideProfile=true
+    // this.showhideProfile = !this.showhideProfile;
+    // this.showmenulist = false;
   }
   showProfile() {
     this.dialog.open(mstapplicantmastermainComponent,
@@ -306,4 +310,18 @@ export class HeaderComponent implements OnInit {
       this.router.routeReuseStrategy.shouldReuseRoute = () => false;
     })
   }
+
+  closePopup(data){
+    debugger
+    if(data=='p'){
+      this.showhideProfile=false
+    }else{
+    this.menuhide=false
+    }
+  }
+  openpopup(){
+    debugger
+    this.menuhide=true
+  }
 }
+

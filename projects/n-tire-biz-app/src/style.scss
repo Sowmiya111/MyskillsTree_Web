@@ -1026,8 +1026,8 @@ h1,
 .actionheader a,
 ng2-smart-table-title a {
   /* background-color:var(--backcolor)!important;*/
-
-  color: var(--frontcolor) !important;
+ color: #5d5b5b !important;
+  // color: var(--frontcolor) !important;
 }
 
 table-cell-view-mode {
@@ -3237,6 +3237,7 @@ h1.col-4.columns.mainheader.left.common_popup_title {
 
 .row.second {
   max-height: 40px !important;
+  margin-top: 50px !important;
 }
 
 i.fa.fa-times-circle {
@@ -3575,4 +3576,23 @@ ng2-smart-table table thead {
   text-decoration: none !important;
   // border-bottom-right-radius: 30px;
   // border-top-right-radius: 30px;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  color: black !important;
+}
+.p-menubar-root-list>.p-menuitem-active>p-menubarsub>.p-submenu-list {
+  display: grid !important;
+  grid-template-columns: 165px 1fr 1fr !important;
+  right: 0px !important;
+  height: 270px !important;
+}
+.second {
+  padding-top: 2px;
+  background-color: #cbf29f !important;
+ // background: linear-gradient(to bottom, #004fce 0%, #009c8e 80%) !important;
+  // background-color: var(--backcolor) !important;
+  color: var(--frontcolor) !important;
 }
