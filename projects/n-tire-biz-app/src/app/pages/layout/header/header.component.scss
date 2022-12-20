@@ -51,6 +51,7 @@ a {
 .layout-topbar {
   height: 3.5rem !important;
   box-shadow: none !important;
+  background-color: #d8ecc1 !important;
 }
 
 body {
@@ -260,4 +261,8 @@ a[_ngcontent-uuu-c401] {
 .applicant-menu:hover{
   background-color: #ebf3fc !important;
   text-align: center;
+}
+.row.second {
+  max-height: 40px !important;
+  margin-top: 1px !important;
 }

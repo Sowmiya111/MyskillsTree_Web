@@ -313,7 +313,8 @@ export class HeaderComponent implements OnInit {
       this.showhideProfile=false
       this.showmenulist = false;
     }else{
-    this.menuhide=false
+    this.menuhide=false;
+    this.showhideProfile = false;
     }
   }
   openpopup(){

@@ -378,7 +378,7 @@ a + a {
   padding: 3px;
   padding-right: 10px;
   // background-color: var(--backcolor) !important;
-  background: linear-gradient(to bottom, #004fce 0%, #009c8e 80%) !important;
+  // background: linear-gradient(to bottom, #004fce 0%, #009c8e 80%) !important;
   border-color: var(--frontcolor) !important;
   border-width: 1px !important;
   color: var(--frontcolor) !important;
@@ -680,7 +680,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 div#header {
-  background-color: #0368b7 !important;
+  background-color: #cbf29f !important;
+  margin-top: 1px !important;
+  color: gray !important;
 }
 
 /*
@@ -844,6 +846,11 @@ h1 a {
   padding-left: 10px;
   padding-right: 10px;
 }
+.reportheader{
+  h1{
+    color: rgb(134, 131, 131) !important;
+  }
+}
 
 .table thead tr {
   background-color: #2fb8ef !important;
@@ -1006,7 +1013,8 @@ h1,
 ng2-smart-table-title a {
   /* background-color:var(--backcolor)!important;*/
 
-  color: var(--frontcolor) !important;
+  // color: var(--frontcolor) !important;
+  color: gray !important;
 }
 
 table-cell-view-mode {
@@ -3170,6 +3178,7 @@ h1.col-4.columns.mainheader.left.common_popup_title {
 
 .row.second {
   max-height: 40px !important;
+  margin-top: 1px !important;
 }
 
 i.fa.fa-times-circle {
@@ -3473,8 +3482,8 @@ ng2-smart-table table thead {
   background: #705858 !important;
   color: #fff !important;
   text-decoration: none !important;
-  // border-bottom-left-radius: 30px;
-  // border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
 }
 .personal-info-btn {
   background: #a5a5a5 !important;
@@ -3499,8 +3508,8 @@ ng2-smart-table table thead {
   background: #705858 !important;
   color: #fff !important;
   text-decoration: none !important;
-  // border-bottom-right-radius: 30px;
-  // border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 // Sowmiya 19/12/2022
