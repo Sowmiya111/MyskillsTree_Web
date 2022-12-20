@@ -1015,6 +1015,8 @@ ng2-smart-table-title a {
 
   // color: var(--frontcolor) !important;
   color: gray !important;
+//  color: #5d5b5b !important;
+  // color: var(--frontcolor) !important;
 }
 
 table-cell-view-mode {
@@ -3541,4 +3543,23 @@ a {
     font-weight: bold;
     margin: 0 !important;
     height: 40px !important;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  color: black !important;
+}
+.p-menubar-root-list>.p-menuitem-active>p-menubarsub>.p-submenu-list {
+  display: grid !important;
+  grid-template-columns: 165px 1fr 1fr !important;
+  right: 0px !important;
+  height: 270px !important;
+}
+.second {
+  padding-top: 2px;
+  background-color: #cbf29f !important;
+ // background: linear-gradient(to bottom, #004fce 0%, #009c8e 80%) !important;
+  // background-color: var(--backcolor) !important;
+  color: var(--frontcolor) !important;
 }

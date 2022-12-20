@@ -6,6 +6,7 @@
 
 .layout-topbar {
   background-color: #ebf3fc !important;
+  background-color: #d8ecc1 !important;
   color: black !important;
   // background-color: var(--frontcolor)!important;
   // background: linear-gradient(to bottom, #004fce 0%, #009c8e 90%);
@@ -24,6 +25,7 @@
     li {
       // color: #fff;
       color: black;
+
     }
   }
 }
@@ -46,6 +48,7 @@
 
 a {
   color: gray !important;
+  color:gray !important;
 }
 
 .layout-topbar {
@@ -171,6 +174,7 @@ a:hover {
   height: 270px !important;
 }
 .abc:hover {
+.abc:hover{
   background-color: #d8ecc1 !important;
 }
 
@@ -184,7 +188,19 @@ a:hover {
   max-width: 30%;
   box-shadow: none !important;
   font-size: 11px;
+
+    border: none !important;
+    height: 80px !important;
+    border-color: #ffffff !important;
+    background-color: white !important;
+    padding: 5px !important;
+    margin: 5px 5px !important;
+    max-width: 30%;
+    box-shadow: none !important;
+    font-size: 11px;
 }
+
+
 
 // .col-4[_ngcontent-hub-c401] {
 //   border-color: #ffffff !important;
@@ -194,6 +210,9 @@ a:hover {
 i1 {
   font-size: 24px !important;
 }
+ i1 {
+   font-size: 24px !important;
+ }
 
 .col-4 .card:hover {
   background-color: #d8ecc1 !important;
@@ -265,4 +284,30 @@ a[_ngcontent-uuu-c401] {
 .row.second {
   max-height: 40px !important;
   margin-top: 1px !important;
+}
+.bell{
+  font-size: 30px !important;
+}
+
+
+a[_ngcontent-uuu-c401] {
+    color: gray !important;
+}
+.headerClass[_ngcontent-uuu-c401] ul[_ngcontent-uuu-c401] li[_ngcontent-uuu-c401] {
+    color: gray !important;
+}
+.li1{
+  text-align: center;
+}
+.b1{
+  color: gray !important;
+}
+.abcrow{
+  margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+.fa1 {
+  color:gray !important;
+  font-size: 24px !important;
+}
 }
